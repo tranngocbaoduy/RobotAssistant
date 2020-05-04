@@ -60,6 +60,7 @@
     </Compile>
     <Compile Include="Helper.cs" />
     <Compile Include="Model\Doctor.cs" />
+    <Compile Include="Model\Patient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddDoctor.resx">

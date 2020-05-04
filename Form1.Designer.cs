@@ -34,6 +34,7 @@
             this.btnAddDoctor = new System.Windows.Forms.Button();
             this.btnRemoveDoctor = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // label1
@@ -98,11 +99,22 @@
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
+            // listView1
+            // 
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(850, 45);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(121, 97);
+            this.listView1.TabIndex = 7;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 1105);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnRemoveDoctor);
             this.Controls.Add(this.btnAddDoctor);
@@ -124,6 +136,7 @@
         private System.Windows.Forms.Button btnAddDoctor;
         private System.Windows.Forms.Button btnRemoveDoctor;
         private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.ListView listView1;
     }
 }
 

@@ -2,9 +2,9 @@ C:\Users\Tamaki\source\repos\RobotAssistant\RobotAssistant\bin\Debug\RobotAssist
 C:\Users\Tamaki\source\repos\RobotAssistant\RobotAssistant\bin\Debug\RobotAssistant.exe
 C:\Users\Tamaki\source\repos\RobotAssistant\RobotAssistant\bin\Debug\RobotAssistant.pdb
 C:\Users\Tamaki\source\repos\RobotAssistant\RobotAssistant\obj\Debug\RobotAssistant.csprojAssemblyReference.cache
+C:\Users\Tamaki\source\repos\RobotAssistant\RobotAssistant\obj\Debug\RobotAssistant.AddDoctor.resources
 C:\Users\Tamaki\source\repos\RobotAssistant\RobotAssistant\obj\Debug\RobotAssistant.Form1.resources
 C:\Users\Tamaki\source\repos\RobotAssistant\RobotAssistant\obj\Debug\RobotAssistant.Properties.Resources.resources
 C:\Users\Tamaki\source\repos\RobotAssistant\RobotAssistant\obj\Debug\RobotAssistant.csproj.GenerateResource.cache
 C:\Users\Tamaki\source\repos\RobotAssistant\RobotAssistant\obj\Debug\RobotAssistant.exe
 C:\Users\Tamaki\source\repos\RobotAssistant\RobotAssistant\obj\Debug\RobotAssistant.pdb
-C:\Users\Tamaki\source\repos\RobotAssistant\RobotAssistant\obj\Debug\RobotAssistant.AddDoctor.resources

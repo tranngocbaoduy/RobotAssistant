@@ -22,6 +22,8 @@ namespace RobotAssistant
         public Form1()
         {
             InitializeComponent();
+
+
             Form1.listDoctor = new ArrayList(); // khởi tạo mảng Doctor 
             CreateDataDoctor(); // tạo dữ liệu mẫu cho Doctor
             InitListView();
@@ -51,14 +53,16 @@ namespace RobotAssistant
             // ví dụ 3 doctor -> 0, 1, 2 
             Doctor temp;
             for (int i = 0; i < Form1.listDoctor.Count; i++)
-            {
+            { 
                 ListViewItem subItem = new ListViewItem();
                 temp = (Doctor)Form1.listDoctor[i];
-                subItem.Text = i.ToString();
+                //subItem.Text = i.ToString();
                 subItem.SubItems.Add(temp.id.ToString());
                 subItem.SubItems.Add(temp.name.ToString());
                 subItem.SubItems.Add(temp.phone.ToString());
                 subItem.SubItems.Add(temp.address.ToString());
+
+
                 lvDoctor.Items.Add(subItem);
             }
         }
@@ -67,6 +71,13 @@ namespace RobotAssistant
         {
             // tạo ra các Doctor
             Doctor d1 = new Doctor("0001", "Doctor 1", "1234565789", "123 Greenwich U");
+
+            Patient p1 = new Patient("0001", "Patient 1", "1234565789", "123 Greenwich U");
+            Patient p2 = new Patient("0002", "Patient 1", "1234565789", "123 Greenwich U");
+
+            d1.listPatient.Add(p1);
+            d1.listPatient.Add(p2);
+
             Doctor d2 = new Doctor("0002", "Doctor 2", "1234565789", "123 Greenwich U");
             Doctor d3 = new Doctor("0003", "Doctor 3", "1234565789", "123 Greenwich U");
             Doctor d4 = new Doctor("0004", "Doctor 4", "1234565789", "123 Greenwich U");
@@ -152,6 +163,11 @@ namespace RobotAssistant
             Form1.listDoctor.Remove(this.doctorSelected);
             LoadDoctor();
             MessageBox.Show("Delete successful");
+        }
+
+        private void listView1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
